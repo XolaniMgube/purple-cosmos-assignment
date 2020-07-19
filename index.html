@@ -13,19 +13,26 @@
     <div class="col-sm-12">
 
         <div class="row">
-            <h2 class="col-sm-6 col-md-4">Job Details</h2>
-            <a class="col-sm-3 col-md-2" href="./edit-job-details.html">
-              <button id="btnJobListAll">Add New</button>
-            </a>
+            <form action="./edit-job-details.html">
+                <div class="form-row">
+                    <h2>Job Details</h2>
+                    <button class="btn btn-secondary float-right">Add New</button>
+                </div>
+               
+            </form>
+            
         </div>
         
-        <table>
-            <tr>
-                <th>client</th>
-                <th>Job Number</th>
-                <th>Name</th>
-                <th>Actions</th>
-            </tr>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Client</th>
+                    <th>Job Number</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            
 
             <tbody id="myTable"></tbody>    
         </table>
