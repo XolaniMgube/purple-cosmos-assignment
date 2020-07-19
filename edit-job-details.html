@@ -17,37 +17,41 @@
                 <input type="text" name="job-title" class="form-control">
             </div>
     
-            <div class="col-md-3">
+            <div class="col-6 col-md-3">
                 <label for="job-number">Job Number</label>
                 <input type="text" name="job-title" class="form-control">
             </div>
         </div>
         
-
-        <div class="col-sm-12">
-            <label for="client-name">Client*</label>
-            <input type="text" name="client-name">
+        <div class="form-row">
+            <div class="form-group col-md-9">
+                <label for="client-name">Client*</label>
+                <input type="text" name="client-name" class="form-control">
+            </div>
+    
+            <div class="col-6 col-md-3">
+                <label for="status">Status</label>
+                <input type="text" name="status" class="form-control">
+            </div>
         </div>
-
-        <div class="col-sm-6">
-            <label for="status">Status</label>
-            <input type="text" name="status">
-        </div>
+        
 
         <div>
             <label for="live-url">Live/Pro URL</label>
-            <input type="text" name="live-url">
+            <input type="text" name="live-url" class="form-control">
         </div>
 
         <div>
             <label for="qa-url">QA/UAT URL</label>
-            <input type="text" name="qa-url">
+            <input type="text" name="qa-url" class="form-control">
         </div>
 
         <div>
             <label for="repo-url">Repo URL</label>
-            <input type="text" name="repo-url">
+            <input type="text" name="repo-url" class="form-control">
         </div>
+
+        <button type="submit" class="btn btn-primary float-right"> Save </button>
         
     </form>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
